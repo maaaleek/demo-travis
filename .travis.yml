@@ -1,2 +1,39 @@
 language: java
 jdk: oraclejdk8
+env:
+  global:
+    - secure: "Fm+lCe7lyNkQV/60BzL1PWqwSfYg3incUOF1zgDaDDrxyiEVa7qPs+cKpnX/uOHck/mDCjD1MqMsXQF/CJK5ATDIfOJs67s8Py98FtBRn+Qwqkz3FSOmXQqCOf60W07vqmKbn9j276d2KnigR0Fkmlsin68oZEJk+t8cRcN4vGFltRQ9hzNRaaz0Bf2yr9X+1XbWjQvdsn5YtK3n62KwQyGbXisrbjcjEVjT4zhqXlAaS4BbJ1Ooi9unke+pA5C4T0oQPLP93NE9IFRU6ZhwepZGEJzq42tzwN+OGjFWcrQE2KwLrijWD7FC7OowM3WwpQXP/INxHKK7TgVmLDd8pmwVjtpFC1Vfqy7rInVbZJRppsphZEayA9Mu5+u8fJQa3yqu/7tZtzM/yzpEfr6DU6nuYOtw46omrvtO7o4hwS8r7OEv/2oVeu9H5hzT3LuyT9Evp5pbl7wVu4NEIvkd23kKLy8ItSO1uStFOGN+EMjSA0WOEbdiPWh4uGnlBfOe+FMrxIKyuR7XtqFiozoc3qgYZubve/8LgEsK1jVFji+yI1S9D37FR7xj4gUB3SbgHzAz5crIuZID+VrdiDrXtHCqSpNkwHi96w+PUPkUDLLt3X0AZpkQBARJJ20PbyL2QdSNk4tRhJBHa1tiuEkRMQ9AqQAo4pGOaYD7gjtYk5Q="
+    - secure: "Q1EvIDJSy9xUwXfBaUBgDe4nO20aJlt2NC//auxM6VJkS1ln/u060vJGQmp9TJ4fjcfbJJTVsocOiJHIskyyGoGUij14QnspjbDGNCAac8/L2+NEZM8COCxdUWXJ/C4XCO0ElKSumtLx6TBbCLxTG7m4jNL2W//lmfPnVCvkDUWRlFiU9le1ZccNpLNgT052pl0hvzcIQM5NVTO+Z4317y22LUy9JolAoBZ02F5V3KIIUMMXF8bZzggNbqszz5StAP90/8fJrZf6wwQPEtAH1HIymqSa0wDkT2fvq13PHwQrOWpPasZWPeG/x2oL3eFr4BDtSWJHPKdMtyV+GA8tpe+TVpOYhDsnfS8ZeQ+ZuJkEKHimFKL9+/Zzr7lXvXPEEcPNwau0onYRzd+nEcNAdQq4ImjN1l8WUbwyGGJaEPAbCiEiEg7Fgvnes8KmMv2rcIZlE2A3E4Klte1sGE5IV+MJjpNqAYLCDk5TiqNkqtscke5zTnYJ+lRWezUZ+92U24AyoI/+lpiot5begZ2bkFT1n2bFn8Pl/ahsKRSAtJf3hiiIY+b2LZi3FghaRbt7h0K/F6JV2jpzjxVsjcvzZAl4r5sWX1zfq7gAXmNp/W+EWF4uLl5pc4bN2TjV40docBvOqPoGyvS3v49cn0p3UmUb7XW6WQf0b6ikTwu9u1k="
+    - secure: "h9JeNjVA/zWjFuyUxNLIuPnJKc4FXm/++FO6dVrLAQ8P3ewAJMOjNeCS/9tkd8LOjPkXydRcfF5dOdKhXKihG9qp2HGUFxJe2uf88Uz+nVy+yGdbKFrscVAkweWmJw9bfwBaTUkML9zd74sHqPeK9FHDZEkyW5knF2qmpviD+jCAkntldEr5NZTUMPs6oZaC572rnCYzqVvFptnYQw5RoxbwMYN9dNJ5zwyHWGBTRSNG+r5fFgZ/Do182Z/HUd6Dq8imN7vBFh3TZumcBOyH3ZyEK8LsestVCVEhC0TDdI3CcT79FPo32uUivVaoJ+8C6qNR7qUhu65RiOQ6cdzkfT3mJdAnhyeQ5J6W0Jofs86WHDHUo23G/2RwudpIPVg810k/TdaSNG7PBLfvx11W71DWcXzp7ttm+4DiiTBcCsTXw9W8UThiCH5BTYzzArjtAwxS80y46FsyVmPavTpYJPr/8+TkpHAo5TaLhiASjsl0a43xk8VPEIQIub1LB2DCWK01PF28Zf90Qn69TPIu2sehb4m+bxvBvwC77HpjKHbaJdcprXXbi+EdJNty5zMMtt/oAya+LuoAA7FpGoU9c12SraGV/568IWB9yMp4lt17PIWtOjpZgoJduJnQqgZQ3iMZKf5/R03rTLqK02hkzJrekd8q9zDRZkQLY05gBvw="
+    - secure: "RyPcFtnsNZRSVeecW6cG+6Kn6A1TUyH19H9Jc7kTALT5R9rwjRh7Znyi6Oj+NW9iMvPNuPkAvgA9XQ+JeZrCcxGfOsr77KbFVMdjZrdU+4iAiU3RAwdvaDdLXny1arG/mwML5CmL8O4LJkHtJJ12+QaJ5DkG3Hp1gd8VfZqpMJzGJZjxiAst3TJkOwzWMNfQ6rGGbeI04V7zbYDTN9P3PUICVeFm3En2UI3EDWsfklsL92tn4kitvXjEo2sx8uxu/ZrbvPMMEptI9JvmLweLeRNXeGUdqR5gB0n1gnoxAtQZ1oiL1v5xbFirV4dSPmqSLHVoI0r+PvmTVRdmy6b3cWRAJoZSmxtlAi7D/TBqDaxA58fNJY3Yv3IVHY6S8WLmZrLdJWr6qAfrUstYAyPoVUrDikTVdRpMMYKrvrqt+cw7puRYq5tCEtxOBbkDJ2fn5c1Q6u/+0sR5XK1dp38OE93CphJfZfluM+GIoMAvBUU9HWymBxMglYhxTcS3oYclG279FTrDPN6Wxw499Y2vLurWt03f189q5dLMpKZjQCXsX3V400lfHkFdqRr3Ri12CgVJG2CvAuQkLwppxAITzVVSqAuZ6BZys4gv/D2MPCHf1skpZj6V8rIvYJ8O9u2ql24QaKr7PQi5av19dkgcap/5jn1OFYWJA46US3k61qc="
+    - COMMIT=${TRAVIS_COMMIT::7}
+
+addons:
+  sonarcloud:
+    organization: "maaaleek-github"
+    token:
+      secure: $SONAR_TOKEN
+
+
+sudo: required
+
+services:
+  - docker
+
+
+script:
+  - ./mvnw clean install -B
+  - ./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+
+after_success:
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
+  - export IMAGE_NAME=$DOCKER_USER/demo-travis
+  - docker build -t $IMAGE_NAME:$COMMIT .
+  - docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
+
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: travis-tuto
